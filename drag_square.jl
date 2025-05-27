@@ -281,14 +281,14 @@ md"""
 - `ThetaMethod`: implicit Euler for first step (reduce high freq. oscillations in time at initialization).
 - `GeneralizedAlpha1`: time integration scheme with numerical damping, suitable for transient flow.
 
-We also define time step using the **CFL condition**. In that case, we use `CFL=1.5`
+We also define time step using the **CFL condition**. In that case, we use `CFL=1.0`
 """
 
 # ╔═╡ f1a9aace-c747-4264-9eab-7688f07eec3c
 begin
 	nls = NLSolver(show_trace=true,method=:newton,iterations=10)
 	h₀ = D/15
-	@show Δt =  1.5*(h₀/U∞)
+	@show Δt =  1.0*(h₀/U∞)
 	ode_solver₀ = ThetaMethod(nls,Δt,1.0)
 	ode_solver = GeneralizedAlpha1(nls,Δt,0.9)
 end

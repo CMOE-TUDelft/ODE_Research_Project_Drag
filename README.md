@@ -6,6 +6,8 @@ This project provides a Pluto.jl notebook to solve the time-dependent incompress
 
 This tutorial is designed for the students doing the "Drag Coefficient Estimation" project of the course *OE44190: Offshore Research Project*. But it is open to the general audience.
 
+<img src="plots/gifs/square_drag.gif" width="500">
+
 ---
 
 ## 1. Install Julia
