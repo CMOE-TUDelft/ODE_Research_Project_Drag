@@ -379,11 +379,11 @@ begin
 	Cds = 2 * Fxs / (D * U∞^2)
 	plt = Plots.plot(Cds)
 	display(plt)
-	savefig(plt,"square_$(Re)_$(U∞).png")
+	savefig(plt,"plots/square_$(Re)_$(U∞).png")
 end
 
 # ╔═╡ 2902d6ed-1223-48ea-8daa-3cd8d02106a6
-Resource("square_$(Re)_$(U∞).png")
+PlutoPlotly.Resource("plots/square_$(Re)_$(U∞).png")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
