@@ -4,6 +4,8 @@
 
 This project provides a Pluto.jl notebook to solve the time-dependent incompressible Navier-Stokes equations using stabilized finite element methods with [Gridap.jl](https://github.com/gridap/Gridap.jl) to estimate drag coefficient in 2D flow around a structure. This guide is aimed at **non-experts in Julia**.
 
+This tutorial is designed for the students doing the "Drag Coefficient Estimation" project of the course *OE44190: Offshore Research Project*. But it is open to the general audience.
+
 ---
 
 ## 1. Install Julia
@@ -38,7 +40,7 @@ We assume that the user will use VS Code to run julia code. This is not required
 1. Clone or download this repository:
 
 ```bash
-git clone https://github.com/CMOE-TUDelft/ODE_Research_Project_Drag.git
+git clone https://github.com/CMOE-TUDelft/NavierStokes-DragCoef-FEM-Tutorial.git
 cd ODE_Research_Project_Drag
 ```
 
@@ -119,6 +121,6 @@ You can be createive here.
 
 ## 📩 Questions?
 
-If you encounter issues, feel free to [open an issue](https://github.com/CMOE-TUDelft/ODE_Research_Project_Drag/issues) or contact the maintainer.
+If you encounter issues, feel free to [open an issue](https://github.com/CMOE-TUDelft/NavierStokes-DragCoef-FEM-Tutorial/issues) or contact the maintainer.
 
 ---
